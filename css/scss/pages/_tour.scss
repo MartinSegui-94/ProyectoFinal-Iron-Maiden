@@ -1,0 +1,27 @@
+.tour {
+  .tour-section {
+    h2 {
+      margin-bottom: 15px;
+      color: #e10600;
+      border-bottom: 2px solid #e10600;
+      padding-bottom: 5px;
+    }
+
+    .tour-dates {
+      list-style: inside square;
+      padding-left: 15px;
+      color: #ddd;
+      font-size: 1.1rem;
+      line-height: 2;
+
+      li {
+        margin-bottom: 8px;
+        transition: color 0.3s ease;
+
+        &:hover {
+          color: #e10600;
+        }
+      }
+    }
+  }
+}

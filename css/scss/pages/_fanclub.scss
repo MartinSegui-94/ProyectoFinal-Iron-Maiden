@@ -1,0 +1,51 @@
+body.fanclub {
+  .fanclub-section {
+    padding: 40px 0;
+
+    h2 {
+      color: #e10600;
+      margin-bottom: 20px;
+      font-size: 1.8rem;
+    }
+
+    p {
+      font-size: 1.1rem;
+      margin-bottom: 25px;
+    }
+
+    .fanclub-form {
+      display: flex;
+      flex-direction: column;
+      gap: 15px;
+
+      label {
+        font-weight: bold;
+        color: #f0f0f0;
+      }
+
+      input {
+        padding: 10px;
+        border-radius: 8px;
+        border: none;
+        outline: none;
+        background-color: #1a1a1a;
+        color: #f0f0f0;
+      }
+
+      button {
+        background-color: #e10600;
+        color: white;
+        border: none;
+        padding: 10px 20px;
+        border-radius: 5px;
+        font-weight: bold;
+        cursor: pointer;
+        transition: background-color 0.3s ease;
+
+        &:hover {
+          background-color: darkred;
+        }
+      }
+    }
+  }
+}
